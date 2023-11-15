@@ -1,0 +1,28 @@
+.container {
+  padding: 15px;
+  display: flexbox;
+  block-size: fit-content;
+  width: auto;
+  border: solid black 2px;
+  height: auto;
+}
+
+.container img {
+  width: 50%;
+  margin-left: 15px;
+  align-self: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.container button {
+  color: blue;
+  border: solid blue 1px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
